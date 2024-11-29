@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "name": "All News"
+    },
+    {
+      "id": 2,
+      "name": "Breaking News"
+    },
+    {
+      "id": 3,
+      "name": "National News"
+    },
+    {
+      "id": 4,
+      "name": "International news"
+    },
+    {
+      "id": 5,
+      "name": "Educational news"
+    },
+    {
+      "id": 6,
+      "name": "Sports news"
+    },
+    {
+      "id": 7,
+      "name": "Entertainment news"
+    },
+    {
+      "id": 8,
+      "name": "Regular News"
+    }
+  ]
+  
