@@ -1,0 +1,225 @@
+[
+  {
+    "id": 1,
+    "title": "Global Climate Action",
+    "total_view": 15234,
+    "author": "Jane Doe",
+    "name": "Climate Daily",
+    "published_date": "2024-11-30",
+    "image": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68",
+    "thumbnail": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=200",
+    "details": "World leaders gather to discuss critical climate action strategies to combat global warming.World leaders gather to discuss critical climate action strategies to combat global warming.World leaders gather to discuss critical climate action strategies to combat global warming.World leaders gather to discuss critical climate action strategies to combat global warming.World leaders gather to discuss critical climate action strategies to combat global warming."
+  },
+  {
+    "id": 2,
+    "title": "Tech Innovations of 2024",
+    "total_view": 18042,
+    "author": "John Smith",
+    "name": "Tech World",
+    "published_date": "2024-11-29",
+    "image": "https://cdn.pixabay.com/photo/2017/12/10/14/47/technology-3014155_1280.jpg",
+    "thumbnail": "https://cdn.pixabay.com/photo/2017/12/10/14/47/technology-3014155_1280.jpg?w=200",
+    "details": "Exploring cutting-edge technologies revolutionizing industries worldwide in 2024.Exploring cutting-edge technologies revolutionizing industries worldwide in 2024.Exploring cutting-edge technologies revolutionizing industries worldwide in 2024.Exploring cutting-edge technologies revolutionizing industries worldwide in 2024.Exploring cutting-edge technologies revolutionizing industries worldwide in 2024."
+  },
+  {
+    "id": 3,
+    "title": "Economic Insights",
+    "total_view": 25087,
+    "author": "Linda Green",
+    "name": "Finance Today",
+    "published_date": "2024-11-28",
+    "image": "https://cdn.pixabay.com/photo/2016/11/18/16/01/money-1838999_1280.jpg",
+    "thumbnail": "https://cdn.pixabay.com/photo/2016/11/18/16/01/money-1838999_1280.jpg?w=200",
+    "details": "A detailed report on the global economy's recovery and growth trends.A detailed report on the global economy's recovery and growth trends.A detailed report on the global economy's recovery and growth trends.A detailed report on the global economy's recovery and growth trends."
+  },
+  {
+    "id": 4,
+    "title": "Breaking Political News",
+    "total_view": 34589,
+    "author": "Adam Lee",
+    "name": "Politics Update",
+    "published_date": "2024-11-27",
+    "image": "https://cdn.pixabay.com/photo/2016/02/24/15/30/politics-1214811_1280.jpg",
+    "thumbnail": "https://cdn.pixabay.com/photo/2016/02/24/15/30/politics-1214811_1280.jpg?w=200",
+    "details": "Recent developments in global politics, including major elections and treaties.Recent developments in global politics, including major elections and treaties.Recent developments in global politics, including major elections and treaties."
+  },
+  {
+    "id": 5,
+    "title": "Space Exploration Milestones",
+    "total_view": 28764,
+    "author": "Emily White",
+    "name": "Space Today",
+    "published_date": "2024-11-26",
+    "image": "https://images.unsplash.com/photo-1581090699206-69fb22f1c446",
+    "thumbnail": "https://images.unsplash.com/photo-1581090699206-69fb22f1c446?w=200",
+    "details": "A closer look at the achievements in space exploration over the past year."
+  },
+  {
+    "id": 6,
+    "title": "Health and Wellness Trends",
+    "total_view": 14267,
+    "author": "Chris Black",
+    "name": "Wellness News",
+    "published_date": "2024-11-25",
+    "image": "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144",
+    "thumbnail": "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=200",
+    "details": "The latest trends in health and wellness, including innovative treatments and practices."
+  },
+  {
+    "id": 7,
+    "title": "Celebrity News Highlights",
+    "total_view": 39548,
+    "author": "Nina Silver",
+    "name": "Entertainment Weekly",
+    "published_date": "2024-11-24",
+    "image": "https://images.unsplash.com/photo-1519183071298-a2962d96a1be",
+    "thumbnail": "https://images.unsplash.com/photo-1519183071298-a2962d96a1be?w=200",
+    "details": "Top celebrity stories making waves in the entertainment industry."
+  },
+  {
+    "id": 8,
+    "title": "Cultural Festival Insights",
+    "total_view": 19842,
+    "author": "Aaron Ford",
+    "name": "Culture Today",
+    "published_date": "2024-11-23",
+    "image": "https://cdn.pixabay.com/photo/2016/11/08/05/36/festival-1807518_1280.jpg",
+    "thumbnail": "https://cdn.pixabay.com/photo/2016/11/08/05/36/festival-1807518_1280.jpg?w=200",
+    "details": "Exploring the vibrant traditions celebrated at global cultural festivals."
+  },
+  {
+    "id": 9,
+    "title": "Sports Championship Wrap-Up",
+    "total_view": 17683,
+    "author": "Katie Brown",
+    "name": "Sports Digest",
+    "published_date": "2024-11-22",
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b",
+    "thumbnail": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=200",
+    "details": "Highlights from this year's most anticipated sports championships."
+  },
+  {
+    "id": 10,
+    "title": "Scientific Breakthroughs",
+    "total_view": 24875,
+    "author": "Mark Wilson",
+    "name": "Science News",
+    "published_date": "2024-11-21",
+    "image": "https://cdn.pixabay.com/photo/2017/03/26/22/03/science-2178588_1280.jpg",
+    "thumbnail": "https://cdn.pixabay.com/photo/2017/03/26/22/03/science-2178588_1280.jpg?w=200",
+    "details": "New discoveries in science that are reshaping our understanding of the universe."
+  },
+  
+    {
+      "id": 11,
+      "title": "Renewable Energy Revolution",
+      "total_view": 17890,
+      "author": "Ethan Moore",
+      "name": "Energy Future",
+      "published_date": "2024-11-20",
+      "image": "https://images.unsplash.com/photo-1603993097397-89bb5a62f6b4",
+      "thumbnail": "https://images.unsplash.com/photo-1603993097397-89bb5a62f6b4?w=200",
+      "details": "The rapid growth and adoption of renewable energy sources worldwide."
+    },
+    {
+      "id": 12,
+      "title": "Artificial Intelligence Advances",
+      "total_view": 20567,
+      "author": "Sophia Taylor",
+      "name": "Tech Horizons",
+      "published_date": "2024-11-19",
+      "image": "https://cdn.pixabay.com/photo/2017/08/06/03/02/robot-2594316_1280.jpg",
+      "thumbnail": "https://cdn.pixabay.com/photo/2017/08/06/03/02/robot-2594316_1280.jpg?w=200",
+      "details": "Exploring AI applications in healthcare, education, and everyday life."
+    },
+    {
+      "id": 13,
+      "title": "Global Economic Summit",
+      "total_view": 16754,
+      "author": "Liam Scott",
+      "name": "World Finance",
+      "published_date": "2024-11-18",
+      "image": "https://cdn.pixabay.com/photo/2016/11/29/03/08/analysis-1867753_1280.jpg",
+      "thumbnail": "https://cdn.pixabay.com/photo/2016/11/29/03/08/analysis-1867753_1280.jpg?w=200",
+      "details": "Key takeaways from the annual global economic summit."
+    },
+    {
+      "id": 14,
+      "title": "Wildlife Conservation Efforts",
+      "total_view": 13428,
+      "author": "Olivia Carter",
+      "name": "Eco Watch",
+      "published_date": "2024-11-17",
+      "image": "https://cdn.pixabay.com/photo/2018/01/21/17/15/safari-3096937_1280.jpg",
+      "thumbnail": "https://cdn.pixabay.com/photo/2018/01/21/17/15/safari-3096937_1280.jpg?w=200",
+      "details": "Ongoing efforts to protect endangered species and their habitats."
+    },
+    {
+      "id": 15,
+      "title": "Education Reform Strategies",
+      "total_view": 15420,
+      "author": "Noah Johnson",
+      "name": "Education Today",
+      "published_date": "2024-11-16",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b",
+      "thumbnail": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=200",
+      "details": "Proposed changes to improve education systems globally."
+    },
+    {
+      "id": 16,
+      "title": "Travel Trends for 2024",
+      "total_view": 14286,
+      "author": "Mia Brown",
+      "name": "Travel Insights",
+      "published_date": "2024-11-15",
+      "image": "https://cdn.pixabay.com/photo/2015/07/09/17/52/flight-839646_1280.jpg",
+      "thumbnail": "https://cdn.pixabay.com/photo/2015/07/09/17/52/flight-839646_1280.jpg?w=200",
+      "details": "The most popular travel destinations and tips for sustainable tourism."
+    },
+    {
+      "id": 17,
+      "title": "Advances in Medical Research",
+      "total_view": 19832,
+      "author": "Emma Davis",
+      "name": "Health Advances",
+      "published_date": "2024-11-14",
+      "image": "https://images.unsplash.com/photo-1581092334656-32ad6c74e6bc",
+      "thumbnail": "https://images.unsplash.com/photo-1581092334656-32ad6c74e6bc?w=200",
+      "details": "Breakthroughs in treating chronic diseases and emerging health challenges."
+    },
+    {
+      "id": 18,
+      "title": "Agricultural Innovations",
+      "total_view": 12345,
+      "author": "William Evans",
+      "name": "Agri World",
+      "published_date": "2024-11-13",
+      "image": "https://cdn.pixabay.com/photo/2015/07/09/22/43/agriculture-838634_1280.jpg",
+      "thumbnail": "https://cdn.pixabay.com/photo/2015/07/09/22/43/agriculture-838634_1280.jpg?w=200",
+      "details": "Exploring technological innovations that are transforming agriculture."
+    },
+    {
+      "id": 19,
+      "title": "Music Industry Highlights",
+      "total_view": 15762,
+      "author": "Ava Green",
+      "name": "Music World",
+      "published_date": "2024-11-12",
+      "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4",
+      "thumbnail": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=200",
+      "details": "Top releases, trends, and artists to watch in 2024."
+    },
+    {
+      "id": 20,
+      "title": "Urban Development Projects",
+      "total_view": 18923,
+      "author": "Charlotte King",
+      "name": "Urban Pulse",
+      "published_date": "2024-11-11",
+      "image": "https://cdn.pixabay.com/photo/2016/11/18/14/45/building-1839147_1280.jpg",
+      "thumbnail": "https://cdn.pixabay.com/photo/2016/11/18/14/45/building-1839147_1280.jpg?w=200",
+      "details": "Major urban development initiatives reshaping global cities."
+    }
+  ]
+  
+
