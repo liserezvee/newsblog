@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import Navbar from "../Shared/Navbar/Navbar";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
+import Swal from "sweetalert2";
 
 const SignUp = () => {
   const { createUser } = useContext(AuthContext);
@@ -18,6 +19,13 @@ const SignUp = () => {
     //create user
     createUser(email, password).then((result) => {
       console.log(result.user);
+      if(result){
+        Swal.fire({
+          title: "Wow!",
+          text: "Signed Up Successful!",
+          icon: "success"
+        });
+      }
     }).catch(error =>{
         console.log(error);
     })

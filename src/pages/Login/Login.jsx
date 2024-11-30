@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import Navbar from "../Shared/Navbar/Navbar";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../providers/AuthProvider";
+import Swal from "sweetalert2";
 
 const Login = () => {
+  const { signIn } = useContext(AuthContext);
   const handleLogin = (e) => {
     e.preventDefault();
     console.log(e);
@@ -10,6 +13,20 @@ const Login = () => {
     const email = form.email.value;
     const password = form.password.value;
     console.log(email, password);
+    signIn(email, password)
+      .then((result) => {
+        console.log(result.user);
+        if(result){
+          Swal.fire({
+            title: "Wow!",
+            text: "Signed In Successful!",
+            icon: "success"
+          });
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   };
   return (
     <div>

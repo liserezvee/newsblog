@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import userDefaultPic from "../../../assets/demo-user.png";
+import { AuthContext } from "../../../providers/AuthProvider";
+import Swal from "sweetalert2";
 const Navbar = () => {
+  const { user, logOut } = useContext(AuthContext);
+
+  const handleSignOut = () => {
+    logOut()
+      .then(()=>{
+        Swal.fire({
+          title: "Wow!",
+          text: "Signed Out Successful!",
+          icon: "success"
+        });
+      })
+      .catch(console.error(error));
+  };
   const navLinks = (
     <>
       <li>
@@ -62,9 +77,15 @@ const Navbar = () => {
             <img src={userDefaultPic} alt="Tailwind CSS Navbar component" />
           </div>
         </div>
-        <Link to="/login">
-          <button className="btn">Login</button>
-        </Link>
+        {user ? (
+          <button onClick={handleSignOut} className="btn">
+            Log out
+          </button>
+        ) : (
+          <Link to="/login">
+            <button className="btn">Login</button>
+          </Link>
+        )}
       </div>
     </div>
   );
