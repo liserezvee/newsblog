@@ -3,6 +3,8 @@ import Navbar from "../Shared/Navbar/Navbar";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import Swal from "sweetalert2";
+import Header from "../Shared/Header/Header";
+import Footer from "../Shared/Footer/Footer";
 
 const Login = () => {
   const { signIn } = useContext(AuthContext);
@@ -35,6 +37,7 @@ const Login = () => {
   };
   return (
     <div>
+      <Header></Header>
       <Navbar></Navbar>
       <div className="hero-content text-center flex-col w-full">
         <h1 className="text-5xl font-bold">Login now!</h1>
@@ -79,6 +82,7 @@ const Login = () => {
           </Link>
         </p>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

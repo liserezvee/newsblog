@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "../Shared/Header/Header";
+import Footer from "../Shared/Footer/Footer";
 
 const About = () => {
   return (
     <div>
+      <Header></Header>
       <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content flex-col lg:flex-row">
           <img
@@ -42,6 +45,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

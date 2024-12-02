@@ -7,6 +7,7 @@ import {
   signOut,
 } from "firebase/auth";
 import app from "../firbase/firebase.config";
+import { GoogleAuthProvider } from "firebase/auth/web-extension";
 export const AuthContext = createContext(null);
 
 const auth = getAuth(app);
@@ -14,6 +15,7 @@ const auth = getAuth(app);
 const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
+
 
   const createUser = (email, password) => {
     setLoading(true)
@@ -44,7 +46,8 @@ const AuthProvider = ({ children }) => {
     createUser,
     signIn,
     logOut,
-    loading
+    loading,
+    
   };
   return (
     <AuthContext.Provider value={authInfo}>{children}</AuthContext.Provider>

@@ -1,8 +1,9 @@
 import React, { useContext } from "react";
 import Navbar from "../Shared/Navbar/Navbar";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import Swal from "sweetalert2";
+import Header from "../Shared/Header/Header";
 
 const SignUp = () => {
   const { createUser } = useContext(AuthContext);
@@ -15,23 +16,25 @@ const SignUp = () => {
     const email = form.email.value;
     const password = form.password.value;
     console.log(name, photo, email, password);
-
     //create user
-    createUser(email, password).then((result) => {
-      console.log(result.user);
-      if(result){
-        Swal.fire({
-          title: "Wow!",
-          text: "Signed Up Successful!",
-          icon: "success"
-        });
-      }
-    }).catch(error =>{
+    createUser(email, password)
+      .then((result) => {
+        console.log(result.user);
+        if (result) {
+          Swal.fire({
+            title: "Wow!",
+            text: "Signed Up Successful!",
+            icon: "success",
+          });
+        }
+      })
+      .catch((error) => {
         console.log(error);
-    })
+      });
   };
   return (
     <div>
+      <Header></Header>
       <Navbar></Navbar>
       <div className="hero-content text-center flex-col w-full">
         <h1 className="text-5xl font-bold">Register Here!</h1>
